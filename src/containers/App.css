@@ -1,3 +1,4 @@
+@import url("http://fonts.cdnfonts.com/css/sega-logo-font");
 .App {
   text-align: center;
 }
@@ -27,7 +28,12 @@
 .App-link {
   color: #61dafb;
 }
-
+h1 {
+  color: #0ccac4;
+  font-weight: 200;
+  font-family: "SEGA LOGO FONT", sans-serif;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
