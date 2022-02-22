@@ -22,7 +22,6 @@ class App extends Component {
       `https://pokeapi.co/api/v2/pokemon?limit=${this.state.searchRobot}&offset=0`
     )
       .then((response) => {
-        console.log(response);
         return response.json();
       })
       .then((pokenmon) => {
